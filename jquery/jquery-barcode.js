@@ -26,7 +26,7 @@
     return type === "number" && isFinite(val) ? Math.floor(val) : 0;
   }
 
-  var defaultSettings = {
+  var defaultSettings 
       barWidth: 1,
       barHeight: 50,
       moduleSize: 5,
